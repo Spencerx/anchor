@@ -12,6 +12,7 @@ The minor version will be incremented upon a breaking change and the patch versi
 
 ### Features
 
+- lang: Always derive `Clone` and `Debug` for generated types in `declare_program!` ([#4723](https://github.com/solana-foundation/anchor/pull/4723)).
 - spl: Add pausable mint extension support ([#4092](https://github.com/solana-foundation/anchor/pull/4092)).
 - spl: Added `token_metadata_remove_key` to support removing keys from token metadata extension ([#3717](https://github.com/solana-foundation/anchor/pull/3717)).
 - lang: Add `AccountLoader::new_unchecked` for constructing an `AccountLoader` without performing owner or discriminator checks ([#4162](https://github.com/solana-foundation/anchor/pull/4162)).
